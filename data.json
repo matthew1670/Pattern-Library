@@ -1,0 +1,115 @@
+{
+    "project_logo": null,
+    "project_favicon": "favicon.png",
+    "project_name": null,
+    "project_url": null,
+    "copyright_start_year": 2017,
+    "client_name": null,
+    "client_url": null,
+    "creators": [
+        {
+            "name": "Matthew Wood",
+            "url": null
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#00585C",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": true,
+        "max_width": null,
+        "titles": {
+            "library_title": "Pattern Library",
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "app/css/custom.css"
+        ],
+        "js": []
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": null,
+    "groups": [
+        {
+            "name": "Navigation",
+            "title": "Navigation",
+            "components": [
+                {
+                    "group": "Navigation",
+                    "name": "defaultNav",
+                    "title": "Default Navigation"
+                }
+            ]
+        },
+        {
+            "name": "Header",
+            "title": "Header",
+            "components": [
+                {
+                    "group": "Header",
+                    "name": "Header",
+                    "title": "Header Element"
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "group": "buttons",
+                    "name": "default",
+                    "title": "Default Button",
+                    "width": "half"
+                },
+                {
+                    "group": "buttons",
+                    "name": "invert",
+                    "title": "Inverted Button",
+                    "width": "half"
+                },
+                {
+                    "group": "buttons",
+                    "name": "rounded",
+                    "title": "Rounded Button",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "CallToAction",
+            "title": "Call To Action Elements",
+            "components": [
+                {
+                    "group": "CallToAction",
+                    "name": "Jumbotron",
+                    "title": "Jumbotron"
+                }
+            ]
+        },
+        {
+            "name": "Footers",
+            "title": "Footer Elements",
+            "components": [
+                {
+                    "group": "Footers",
+                    "name": "DefaultFooter",
+                    "title": "Default Footer"
+                }
+            ]
+        }
+    ],
+    "version": "1.9.3"
+}
