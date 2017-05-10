@@ -82,8 +82,26 @@
                 },
                 {
                     "group": "buttons",
+                    "name": "Disabled",
+                    "title": "Disabled Button",
+                    "width": "half"
+                },
+                {
+                    "group": "buttons",
+                    "name": "icon",
+                    "title": "Button With Icon",
+                    "width": "half"
+                },
+                {
+                    "group": "buttons",
                     "name": "rounded",
                     "title": "Rounded Button",
+                    "width": "half"
+                },
+                {
+                    "group": "buttons",
+                    "name": "FullWidth",
+                    "title": "Full Width Button",
                     "width": "half"
                 }
             ]
