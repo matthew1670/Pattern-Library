@@ -15,10 +15,10 @@
     "theme": {
         "border_color": "#E0E6ED",
         "highlight_color": "#F9FAFC",
-        "brand_color": "#00585C",
+        "brand_color": "#1BFF13",
         "background_color": "#FFFFFF",
-        "code_highlight_theme": "github",
-        "override_code_highlight_bg": "#F9FAFC",
+        "code_highlight_theme": "darkula",
+        "override_code_highlight_bg": null,
         "sample_dark_background": "#333333",
         "show_project_name": true,
         "show_version": true,
@@ -52,6 +52,7 @@
             }
         ]
     },
+
     "groups": [
         {
             "name": "Navigation",

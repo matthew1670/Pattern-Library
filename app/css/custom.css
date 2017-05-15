@@ -1,3 +1,9 @@
+.ndpl-page pre code,
+.ndpl-component__description pre code,
+.ndpl-component__code .ndpl-code{
+  opacity: 1;
+}
+
 /* Button Styling - START */
 .btn{
   display: inline-block;
@@ -90,3 +96,22 @@ li.menu-item:hover, li.menu-item:hover a ,li.menu-item.active, li.menu-item.acti
 }
 
 /*Navigation Styling - END*/
+
+/*Header Element - START*/
+.header{
+  height:100%;
+  padding:1em;
+  background-image: url("/app/img/dark-1845685_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 4em 2em;
+}
+
+.header .lead{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+/*Header Element - END*/
