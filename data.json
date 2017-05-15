@@ -31,7 +31,8 @@
     },
     "assets": {
         "css": [
-            "app/css/custom.css"
+            "app/css/custom.css",
+            "app/css/font-awesome.min.css"
         ],
         "js": []
     },
