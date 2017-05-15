@@ -1,3 +1,4 @@
+/* Button Styling - START */
 .btn{
   display: inline-block;
   padding:1em;
@@ -7,12 +8,82 @@
   text-decoration: none;
 }
 
-
 .btn:hover{
   background-color: #6798c3;
 }
 
-
 .btn.invert{
 filter: invert(100%);
 }
+
+.btn.disabled{
+  background-color: #ccc;
+  pointer-events: none;
+  color: black;
+}
+
+.btn.icon > i {
+    padding-right: .5em;
+    border-right: 2px solid white;
+    margin-right: .5em;
+    font-size: 1.25em;
+}
+
+.btn.rounded{
+  border-radius: 25px;
+}
+
+.btn.fullwidth{
+  display: block;
+}
+/* Button Styling - END */
+
+/*Navigation Styling - START*/
+.nav{
+  display: block;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu{
+    margin: 0;
+    display: block;
+}
+
+li.menu-item, li.menu-item > a{
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration: none;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  color: black;
+}
+
+li.menu-item:hover, li.menu-item:hover a ,li.menu-item.active, li.menu-item.active a{
+   background: black;
+   color: white;
+}
+
+/*Dark Version white on black*/
+
+.darknav{
+  background: black;
+}
+
+.darknav li.menu-item, .darknav li.menu-item>a {
+    color: white;
+}
+
+.darknav li.menu-item:hover,
+.darknav li.menu-item:hover a,
+.darknav li.menu-item.active,
+.darknav li.menu-item.active a{
+   background: white;
+   color: black;
+}
+
+/*Navigation Styling - END*/

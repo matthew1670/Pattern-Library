@@ -26,7 +26,7 @@
         "titles": {
             "library_title": "Pattern Library",
             "pages_title": "Overview",
-            "components_title": "Components"
+            "components_title": "Elements"
         }
     },
     "assets": {
@@ -41,7 +41,17 @@
         "typography_web_fonts": null,
         "google_web_fonts": null
     },
-    "content": null,
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            }
+        ]
+    },
     "groups": [
         {
             "name": "Navigation",
@@ -51,6 +61,11 @@
                     "group": "Navigation",
                     "name": "defaultNav",
                     "title": "Default Navigation"
+                },
+                {
+                    "group": "Navigation",
+                    "name": "darkNav",
+                    "title": "Dark Navigation"
                 }
             ]
         },
