@@ -15,7 +15,7 @@
     "theme": {
         "border_color": "#E0E6ED",
         "highlight_color": "#F9FAFC",
-        "brand_color": "#1BFF13",
+        "brand_color": "#ff0000",
         "background_color": "#FFFFFF",
         "code_highlight_theme": "darkula",
         "override_code_highlight_bg": null,
