@@ -8,7 +8,7 @@
 .btn{
   display: inline-block;
   padding:1em;
-  background-color: #0074D9;
+  background-color: black;
   color:white;
   text-align: center;
   text-decoration: none;
@@ -115,3 +115,26 @@ li.menu-item:hover, li.menu-item:hover a ,li.menu-item.active, li.menu-item.acti
 
 
 /*Header Element - END*/
+
+/*Footer Element - START*/
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 1em;
+}
+
+footer .footer-social-icons > i {
+    font-size: 2em;
+    margin: 0 .5em;
+}
+
+footer .footer-small-text {
+    font-weight: bolder;
+    letter-spacing: 0.4rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 1em;
+}
+
+/*Footer Element - END*/
