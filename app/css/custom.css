@@ -9,17 +9,21 @@
   display: inline-block;
   padding:1em;
   background-color: black;
+  border:1px solid;
   color:white;
   text-align: center;
   text-decoration: none;
 }
 
 .btn:hover{
-  background-color: #6798c3;
+  filter: invert(100%);
 }
 
 .btn.invert{
 filter: invert(100%);
+}
+.btn.invert:hover{
+filter: invert(0%);
 }
 
 .btn.disabled{
@@ -138,3 +142,10 @@ footer .footer-small-text {
 }
 
 /*Footer Element - END*/
+
+
+    .jumbotron{
+      display: block;
+      padding:3em 2em;
+      background-color: rgba(0, 0, 0, 0.25);
+    }
