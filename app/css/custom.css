@@ -4,12 +4,14 @@
   opacity: 1;
 }
 
+
+
 /* Button Styling - START */
 .btn{
   display: inline-block;
   padding:1em;
   background-color: black;
-  border:1px solid;
+  border:1px solid white;
   color:white;
   text-align: center;
   text-decoration: none;
@@ -148,4 +150,24 @@ footer .footer-small-text {
       display: block;
       padding:3em 2em;
       background-color: rgba(0, 0, 0, 0.25);
+    }
+
+
+    .image-caption{
+      border: 2px solid black;
+      margin:0;
+      position: relative;
+      max-width: 400px;
+      padding: 0;
+    }
+
+    .image-caption p{
+      position: absolute;
+      bottom:0;
+      left:0;
+      right:0;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      padding: 1em;
+      margin: 0;
     }

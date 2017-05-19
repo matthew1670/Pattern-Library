@@ -49,6 +49,11 @@
                 "name": "introduction",
                 "title": "Introduction",
                 "file": "./pages/intro.md"
+            },
+            {
+                "name": "TestPage",
+                "title": "Test Page",
+                "file": "./pages/testpage.html"
             }
         ]
     },
@@ -141,6 +146,18 @@
                     "group": "Footers",
                     "name": "DefaultFooter",
                     "title": "Default Footer"
+                }
+            ]
+        },
+        {
+            "name": "custom",
+            "title": "Custom Items",
+            "components": [
+                {
+                    "group": "custom",
+                    "name": "imagecaption",
+                    "title": "Image with caption",
+                    "width": "half"
                 }
             ]
         }
